@@ -1,0 +1,41 @@
+.home {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .home-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Adjust this value as needed */
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .resume-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .resume-link:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+  }
+  
+  .resume-icon-only {
+    font-size: 1.25rem;
+  }
+  

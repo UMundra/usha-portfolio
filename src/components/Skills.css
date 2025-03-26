@@ -1,0 +1,28 @@
+.skills {
+    background-color:#d1dddf;
+    padding: 4rem 2rem;
+    text-align: left;
+  }
+  
+  .skills h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .skills-list {
+    list-style-type: disc;
+    padding-left: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  .skills-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-list strong {
+    color: #4f257f; /* A deep purple tone */
+  }
+  

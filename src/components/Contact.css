@@ -1,0 +1,32 @@
+.contact {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact p {
+    margin: 0.5rem 0;
+  }
+  
+  .contact a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .contact-icons a {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .contact-icons a:hover {
+    color: #00bcd4;
+    transform: scale(1.2);
+  }
+    
