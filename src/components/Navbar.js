@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaUser } from "react-icons/fa";
+// import { FaUser } from "react-icons/fa";
 import "./Navbar.css";
 
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className="navbar glassy">
       <div className="nav-container">
-        <div className="logo"><FaUser style={{ marginRight: "8px" }} /></div>
+        {/* <div className="logo"><FaUser style={{ marginRight: "8px" }} /></div> */}
         <div className={`menu-toggle ${menuOpen ? "open" : ""}`} onClick={toggleMenu}>
           <span></span>
           <span></span>
